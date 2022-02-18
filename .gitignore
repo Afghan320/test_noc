@@ -1,0 +1,33 @@
+/.env
+/.vscode
+# /config/*
+/data/*
+!/data/mysql/.gitkeep
+/logs/*
+!/logs/apache2/.gitkeep
+!/logs/mysql/.gitkeep
+# /www/**
+.DS_Store
+traefik.toml
+acme.json
+backups
+
+www/.gitkeep
+www/admin/config.php
+www/config.php
+www/.htaccess
+cache
+!cache/index.html
+www/system/storage/modification/
+!www/system/storage/modification/index.html
+.log
+!www/system/storage/logs/index.html
+.svn
+
+www/*.html
+www/*.txt
+www/apple*
+www/google*
+www/yandex*
+
+www/node_modules
